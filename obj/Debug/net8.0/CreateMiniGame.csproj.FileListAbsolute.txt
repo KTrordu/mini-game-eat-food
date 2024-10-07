@@ -1,0 +1,14 @@
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\bin\Debug\net8.0\CreateMiniGame.exe
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\bin\Debug\net8.0\CreateMiniGame.deps.json
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\bin\Debug\net8.0\CreateMiniGame.runtimeconfig.json
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\bin\Debug\net8.0\CreateMiniGame.dll
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\bin\Debug\net8.0\CreateMiniGame.pdb
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\CreateMiniGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\CreateMiniGame.AssemblyInfoInputs.cache
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\CreateMiniGame.AssemblyInfo.cs
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\CreateMiniGame.csproj.CoreCompileInputs.cache
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\CreateMiniGame.dll
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\refint\CreateMiniGame.dll
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\CreateMiniGame.pdb
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\CreateMiniGame.genruntimeconfig.cache
+C:\B\God\C# (Microsoft)\Projects\CreateMiniGame\obj\Debug\net8.0\ref\CreateMiniGame.dll
