@@ -25,12 +25,16 @@ int food = 0;
 InitializeGame();
 while (!shouldExit)
 {
-    Move(true);
+    Move(true, IsHappy());
 
     if (DidConsumeFood())
     {
         ShowFood();
         ChangePlayer();
+        if (ShouldFreeze())
+        {
+            FreezePlayer();
+        }
     }
     
     if (TerminalResized())
@@ -77,10 +81,16 @@ void FreezePlayer()
 }
 
 // Reads directional input from the Console and moves the player
-void Move(bool shouldExitOnNonDirectionalInput = false)
+void Move(bool shouldExitOnNonDirectionalInput = false, bool isHappy = false)
 {
     int lastX = playerX;
     int lastY = playerY;
+
+    int playerSpeed = 1;
+    if (isHappy)
+    {
+        playerSpeed += 3;
+    }
 
     switch (Console.ReadKey(true).Key)
     {
@@ -91,10 +101,10 @@ void Move(bool shouldExitOnNonDirectionalInput = false)
             playerY++;
             break;
         case ConsoleKey.LeftArrow:
-            playerX--;
+            playerX -= playerSpeed;
             break;
         case ConsoleKey.RightArrow:
-            playerX++;
+            playerX += playerSpeed;
             break;
         case ConsoleKey.Escape:
             shouldExit = true;
@@ -137,4 +147,14 @@ bool DidConsumeFood()
 {
     bool isOnFood = playerX == foodX && playerY == foodY;
     return isOnFood;
+}
+
+bool ShouldFreeze()
+{
+    return player == states[2];
+}
+
+bool IsHappy()
+{
+    return player == states[1];
 }
